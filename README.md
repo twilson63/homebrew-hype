@@ -4,17 +4,12 @@ Official Homebrew tap for [Hype](https://github.com/twilson63/hype-rs) - a fast 
 
 ## Installation
 
+> **Note**: Due to a naming conflict with the "Hype" animation software cask in Homebrew, you must use the full tap path when installing.
+
 ### Install Hype
 
 ```bash
 brew install twilson63/hype/hype
-```
-
-Or add the tap first:
-
-```bash
-brew tap twilson63/hype
-brew install hype
 ```
 
 ### Verify Installation
@@ -78,13 +73,13 @@ Hype is a fast Lua 5.4 runtime built in Rust, designed as a Node.js alternative 
 
 ```bash
 brew update
-brew upgrade hype
+brew upgrade twilson63/hype/hype
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall hype
+brew uninstall twilson63/hype/hype
 brew untap twilson63/hype
 ```
 
